@@ -1,4 +1,4 @@
-# my-app
+# 005_vue_data-table
 
 ## Project setup
 ```
