@@ -1,0 +1,33 @@
+<body>
+    <div id="app-3">
+        <h2>あいさつメーカー</h2>
+        <select v-model="greeting">
+            <option value="" disabled selected style="display:none">あいさつを選択</option>
+            <option v-for="item in greetings" :value="item">{{ item }}</option>
+        </select>
+        <input type="text" v-model="name" placeholder="名前を入力" />
+        <select v-model="honorific">
+            <option value="" disabled selected style="display:none">敬称を選択</option>
+            <option v-for="item in honorifics" :value="item">{{ item }}</option>
+        </select>
+        <p>出力 → {{ message }}</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        const app3 = new Vue ({
+            el: '#app-3',
+            data: {
+                name : '',
+                greeting: '',
+                honorific: '',
+                greetings: [ 'おはよう', 'こんにちは', 'こんばんは', 'おやすみ'],
+                honorifics: ['さん', 'くん', 'ちゃん', '様', '殿']
+            },
+            computed: {
+                message: function() {
+                    return this.greeting + ' ' + this.name + ' ' + this.honorific
+                }
+            }
+        })
+    </script>
+</body>

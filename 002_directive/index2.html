@@ -1,0 +1,15 @@
+<body>
+    <div id="app-2">
+        <p>{{ inputText }}</p>
+        <input v-model="inputText">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        const app2 = new Vue ({
+            el: '#app-2',
+            data: {
+                inputText: ''
+            }
+        })
+    </script>
+</body>

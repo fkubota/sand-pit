@@ -1,0 +1,24 @@
+<body>
+    <div id="app-4">
+        <p>最新テキスト: {{ text }}</p>
+        <input type="text" :value="text" @keyup.enter="text = $event.target.value" />
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        const app4 = new Vue ({
+            el: '#app-4',
+            data: {
+                text: '',
+            },
+            watch: {
+                text: function(nextText, prevText) {
+                    let prev = prevText
+                    let next = nextText
+                    if(!prev) prev = '(未入力)'
+                    if(!next) next = '(未入力)'
+                    alert('値が変更されました 前: ' + prev + ' → 次: ' + next)
+                }
+            }
+        })
+    </script>
+</body>

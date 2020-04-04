@@ -1,0 +1,24 @@
+<body>
+    <div id="app-2">
+        <h2>おみくじガチャ</h2>
+        <p>{{ fortune }}！</p>
+        <button @click="submit">引いてみる</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        const app2 = new Vue ({
+            el: '#app-2',
+            data: {
+                items: ['大吉', '中吉', '小吉', '吉', '凶', '大凶'],
+                fortune: 'ここに表示されるよ'
+            },
+            methods: {
+                submit: function() {
+                    const items = this.items
+                    let item = items[Math.floor(Math.random() * items.length)]
+                    this.fortune = item
+                }
+            }
+        })
+    </script>
+</body>
