@@ -6,6 +6,7 @@
     :sort-by.sync='sortBy'
     :sort-desc.sync='sortDesc'
     class="elevation-1"
+    style='margin-left: 300px; margin-right:300px;'
   ></v-data-table>
 </template>
 

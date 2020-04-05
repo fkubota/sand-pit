@@ -1,6 +1,4 @@
-# my-app
-ref: https://reffect.co.jp/vue/vuetify-first-time
-<img src='./image.png' width='400'>
+# 007_vue_csv
 
 ## Project setup
 ```
