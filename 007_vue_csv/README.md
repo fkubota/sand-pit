@@ -1,4 +1,5 @@
 # 007_vue_csv
+<img src='image.png' width='400'>
 
 ## Project setup
 ```
