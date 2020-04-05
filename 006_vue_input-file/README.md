@@ -1,4 +1,6 @@
 # 006_vue_input-file
+<img src='image.png' width='300'>
+
 
 ## Project setup
 ```

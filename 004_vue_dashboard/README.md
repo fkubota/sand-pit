@@ -1,5 +1,5 @@
 # 004_vue_dashboard
-<img src='image.png' width='400'>
+<img src='image.png' width='600'>
 
 ## Project setup
 ```
