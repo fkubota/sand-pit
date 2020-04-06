@@ -7,7 +7,7 @@
       <v-card-text>
         <v-form>
           <v-card-actions>
-            <v-btn class='info' v-on:click='connect_api'>ログイン</v-btn>
+            <v-btn class='info' v-on:click='to_api'>ログイン</v-btn>
           </v-card-actions>
         </v-form>
       </v-card-text>
@@ -21,20 +21,15 @@
   name: 'App',
   data: () => ({
     msg: 'hello',
-    val_app_vue: 'text_app_vue',
-	to_api: ''
   }),
   methods: {
-    disp(){
-      this.msg = 'hhh'
-    },
-    connect_api(){
+    to_api(){
       console.log('----- begin vue -----')
-      axios.post('http://127.0.0.1:5000/myapi', {
-        arg1: this.val_app_vue
+      axios.post('http://127.0.0.1:5002/myapi', {
+        arg01: this.msg
       })
       .then((response) => {
-        this.to_api = response.data.AA
+        this.msg = response.data.after_api
       })
     }
   }

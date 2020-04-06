@@ -7,7 +7,6 @@ CORS(app)
 api = Api(app)
 
 # Require a parser to parse our POST request.
-print('----- begin python-----')
 parser = reqparse.RequestParser()
 parser.add_argument("arg01")
 
@@ -15,13 +14,12 @@ parser.add_argument("arg01")
 class MyApi(Resource):
     def post(self):
         args = parser.parse_args()
-        print(args)
-        val_A = args['hello']
-        val_val = val_A + 'api dekita'
-        return {"AA": val_val}
+        val_A = args['arg01']
+        val_val = val_A + ' api dekita'
+        return {"after_api": val_val}
 
 
 api.add_resource(MyApi, "/myapi")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run('127.0.0.1', 5002, debug=True)
