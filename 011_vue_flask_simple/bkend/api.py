@@ -14,8 +14,8 @@ parser.add_argument("arg01")
 class MyApi(Resource):
     def post(self):
         args = parser.parse_args()
-        val_A = args['arg01']
-        val_val = val_A + ' api dekita'
+        val = args['arg01']
+        val_val = val + ' ---> flask'
         return {"after_api": val_val}
 
 

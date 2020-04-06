@@ -7,7 +7,7 @@
       <v-card-text>
         <v-form>
           <v-card-actions>
-            <v-btn class='info' v-on:click='to_api'>ログイン</v-btn>
+            <v-btn class='info' v-on:click='to_api'>click</v-btn>
           </v-card-actions>
         </v-form>
       </v-card-text>
@@ -20,12 +20,12 @@
   export default {
   name: 'App',
   data: () => ({
-    msg: 'hello',
+    msg: 'I am vue',
   }),
   methods: {
     to_api(){
       console.log('----- begin vue -----')
-      axios.post('http://127.0.0.1:5002/myapi', {
+      axios.post('http://127.0.0.1:5003/myapi', {
         arg01: this.msg
       })
       .then((response) => {
