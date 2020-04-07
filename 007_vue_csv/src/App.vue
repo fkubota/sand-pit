@@ -5,7 +5,7 @@
       <v-file-input @change='fileChange' label='csv input' accept='.csv' show-size></v-file-input>
       <v-btn>{{btn_name}}</v-btn>
     </v-content>
-    <!-- <input @change="fileChange" type="file" id="file_input_expense" name="file_input_expense"> -->
+    <input @change="fileChange" type="file" id="file_input_expense" name="file_input_expense">
     <v-data-table :headers="headers" :items="workers" class="elevation-1">
       <template slot="items" slot-scope="props">
         <td class="text-xs-right">{{ props.item.code }}</td>
@@ -42,7 +42,9 @@ export default {
       const workers = [];
 
       const loadFunc = () => {
+        console.log(reader.result)
         const lines = reader.result.split("\n");
+        console.log(lines)
         delete lines[0]
         lines.forEach(element => {
           const workerData = element.split(",");
@@ -52,6 +54,7 @@ export default {
             name: workerData[1],
             age: workerData[2]
           };
+          console.log(worker)
           workers.push(worker);
         });
         this.workers = workers;
