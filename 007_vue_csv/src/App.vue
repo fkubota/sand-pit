@@ -56,7 +56,6 @@ export default {
         });
         this.workers = workers;
       };
-
       reader.onload = loadFunc;
 
       reader.readAsBinaryString(file);
