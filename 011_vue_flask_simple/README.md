@@ -1,4 +1,6 @@
 # 011_vue_flask_simple
+- check
+	- curl: curl localhost:5002/myapi curl -d "arg01=hello_flask"
 
 ## Project setup
 ```
