@@ -18,7 +18,9 @@ connection_config = {
 }
 
 # PostgreSQLに接続する
-engine = create_engine('postgresql://{user}:{password}@{host}:{port}/{database}'.format(**connection_config))
+engine = create_engine('postgresql://{user}: \
+                        {password}@{host}: \
+                        {port}/{database}'.format(**connection_config))
 
 # pandas
 df = pd.read_sql(sql='SELECT * FROM pandas_table;', con=engine)
