@@ -13,8 +13,6 @@ def main():
     logger.info('start main')
     sum_ab(2, 3)
     logger.info('end main')
-    logger.success('success')
-    logger.info('end main')
 
 
 if __name__ == "__main__":
