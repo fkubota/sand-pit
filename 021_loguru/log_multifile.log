@@ -1,0 +1,79 @@
+2020-08-08 08:28:18.541 | INFO     | __main__:run:6 - start run
+2020-08-08 08:28:42.115 | INFO     | __main__:run:6 - start run
+2020-08-08 08:32:36.250 | INFO     | __main__:run:7 - start run
+2020-08-08 08:32:36.251 | INFO     | multifile02:sum_ab:5 - start
+2020-08-08 08:32:36.251 | INFO     | multifile02:sum_ab:7 - a + b = 12
+2020-08-08 08:32:36.251 | INFO     | multifile02:sum_ab:8 - end
+2020-08-08 08:34:11.965 | INFO     | __main__:run:7 - start run
+2020-08-08 08:34:11.966 | INFO     | multifile02:sum_ab:5 - start
+2020-08-08 08:34:11.966 | INFO     | multifile02:sum_ab:7 - a + b = 12
+2020-08-08 08:34:11.966 | INFO     | multifile02:sum_ab:8 - end
+2020-08-08 08:34:11.966 | INFO     | __main__:run:9 - end run
+2020-08-08 08:34:53.566 | INFO     | __main__:run:7 - 
+start run
+2020-08-08 08:34:53.566 | INFO     | multifile02:sum_ab:5 - start
+2020-08-08 08:34:53.567 | INFO     | multifile02:sum_ab:7 - a + b = 12
+2020-08-08 08:34:53.567 | INFO     | multifile02:sum_ab:8 - end
+2020-08-08 08:34:53.567 | INFO     | __main__:run:9 - end run
+2020-08-08 08:35:32.392 | INFO     | __main__:run:7 - ==============================
+2020-08-08 08:35:32.393 | INFO     | __main__:run:8 - start run
+2020-08-08 08:35:32.393 | INFO     | multifile02:sum_ab:5 - start
+2020-08-08 08:35:32.394 | INFO     | multifile02:sum_ab:7 - a + b = 12
+2020-08-08 08:35:32.394 | INFO     | multifile02:sum_ab:8 - end
+2020-08-08 08:35:32.394 | INFO     | __main__:run:10 - end run
+2020-08-08 08:35:47.692 | INFO     | __main__:run:7 - ==============================
+2020-08-08 08:35:47.692 | INFO     | __main__:run:8 - start run
+2020-08-08 08:35:47.693 | INFO     | multifile02:sum_ab:5 - start
+2020-08-08 08:35:47.693 | INFO     | multifile02:sum_ab:7 - a + b = 12
+2020-08-08 08:35:47.693 | INFO     | multifile02:sum_ab:8 - end
+2020-08-08 08:35:47.693 | INFO     | __main__:run:10 - end run
+2020-08-08 08:36:00.888 | INFO     | __main__:run:7 - ==============================
+2020-08-08 08:36:00.888 | INFO     | __main__:run:8 - start run
+2020-08-08 08:36:00.888 | INFO     | multifile02:sum_ab:5 - start
+2020-08-08 08:36:00.889 | INFO     | multifile02:sum_ab:7 - a + b = 12
+2020-08-08 08:36:00.889 | INFO     | multifile02:sum_ab:8 - end
+2020-08-08 08:36:00.889 | INFO     | __main__:run:10 - end run
+2020-08-08 08:36:31.726 | INFO     | __main__:run:7 - ==============================
+2020-08-08 08:36:31.726 | INFO     | __main__:run:8 - start run
+2020-08-08 08:36:31.727 | INFO     | multifile02:sum_ab:5 - start
+2020-08-08 08:36:31.727 | INFO     | multifile02:sum_ab:7 - a + b = 12
+2020-08-08 08:36:31.727 | INFO     | multifile02:sum_ab:8 - end
+2020-08-08 08:36:31.727 | INFO     | __main__:run:10 - end run
+2020-08-08 08:36:36.956 | INFO     | __main__:run:7 - ==============================
+2020-08-08 08:36:36.957 | INFO     | __main__:run:8 - start run
+2020-08-08 08:36:36.957 | INFO     | multifile02:sum_ab:5 - start
+2020-08-08 08:36:36.957 | INFO     | multifile02:sum_ab:7 - a + b = 12
+2020-08-08 08:36:36.957 | INFO     | multifile02:sum_ab:8 - end
+2020-08-08 08:36:36.957 | INFO     | __main__:run:10 - end run
+2020-08-08 08:36:49.648 | INFO     | __main__:run:7 - ==============================
+2020-08-08 08:36:49.649 | INFO     | __main__:run:8 - start run
+2020-08-08 08:36:49.649 | INFO     | multifile02:sum_ab:5 - start
+2020-08-08 08:36:49.649 | INFO     | multifile02:sum_ab:7 - a + b = 12
+2020-08-08 08:36:49.649 | INFO     | multifile02:sum_ab:8 - end
+2020-08-08 08:36:49.649 | INFO     | __main__:run:10 - end run
+2020-08-08 08:38:58.067 | INFO     | __main__:run:7 - ==============================
+2020-08-08 08:38:58.068 | INFO     | __main__:run:8 - start run
+2020-08-08 08:38:58.068 | INFO     | multifile02:sum_ab:5 - start
+2020-08-08 08:38:58.068 | INFO     | multifile02:sum_ab:7 - a + b = 12
+2020-08-08 08:38:58.069 | INFO     | multifile02:sum_ab:8 - end
+2020-08-08 08:38:58.069 | INFO     | __main__:run:10 - end run
+2020-08-08 08:39:13.607 | INFO     | __main__:run:7 - ==============================
+2020-08-08 08:39:13.608 | INFO     | __main__:run:8 - start run
+2020-08-08 08:39:13.608 | INFO     | multifile02:sum_ab:5 - start
+2020-08-08 08:39:13.608 | INFO     | multifile02:sum_ab:7 - a + b = 12
+2020-08-08 08:39:13.608 | INFO     | multifile02:sum_ab:8 - end
+2020-08-08 08:39:13.609 | INFO     | __main__:run:10 - end run
+2020-08-08 08:40:56.947 | INFO     | __main__:run:7 - ==============================
+2020-08-08 08:40:56.948 | INFO     | __main__:run:8 - start run
+2020-08-08 08:40:56.948 | INFO     | multifile02:sum_ab:5 - start
+2020-08-08 08:40:56.948 | INFO     | multifile02:sum_ab:7 - a + b = 12
+2020-08-08 08:40:56.948 | INFO     | multifile02:sum_ab:8 - end
+2020-08-08 08:40:56.949 | INFO     | __main__:run:10 - end run
+2020-08-08 08:40:56.949 | SUCCESS  | __main__:main:15 - success
+2020-08-08 08:43:40.417 | INFO     | __main__:run:7 - ==============================
+2020-08-08 08:43:40.418 | INFO     | __main__:run:8 - start run
+2020-08-08 08:43:40.418 | INFO     | multifile02:sum_ab:5 - start
+2020-08-08 08:43:40.418 | INFO     | multifile02:sum_ab:7 - a + b = 12
+2020-08-08 08:43:40.418 | INFO     | multifile02:sum_ab:8 - end
+2020-08-08 08:43:40.418 | INFO     | __main__:run:10 - end run
+2020-08-08 08:43:40.419 | SUCCESS  | __main__:main:15 - Complete.
