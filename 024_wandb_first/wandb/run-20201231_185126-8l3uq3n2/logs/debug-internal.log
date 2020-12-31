@@ -1,0 +1,182 @@
+2020-12-31 18:51:26,533 INFO    MainThread:355 [internal.py:wandb_internal():63] W&B internal server running at pid: 355
+2020-12-31 18:51:26,536 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: check_version
+2020-12-31 18:51:26,536 DEBUG   SenderThread:355 [sender.py:send():90] send: header
+2020-12-31 18:51:26,536 DEBUG   SenderThread:355 [sender.py:send():90] send: request
+2020-12-31 18:51:26,536 DEBUG   SenderThread:355 [sender.py:send_request():99] send_request: check_version
+2020-12-31 18:51:26,536 INFO    WriterThread:355 [datastore.py:open_for_write():76] open: /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/run-8l3uq3n2.wandb
+2020-12-31 18:51:26,539 DEBUG   Thread-4  :355 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): pypi.org:443
+2020-12-31 18:51:26,861 DEBUG   Thread-4  :355 [connectionpool.py:_make_request():442] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 52216
+2020-12-31 18:51:26,950 DEBUG   SenderThread:355 [sender.py:send():90] send: run
+2020-12-31 18:51:26,953 DEBUG   SenderThread:355 [cmd.py:execute():719] Popen(['git', 'cat-file', '--batch-check'], cwd=/home/fkubota/Git/sand-pit, universal_newlines=False, shell=None, istream=<valid stream>)
+2020-12-31 18:51:26,966 DEBUG   SenderThread:355 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-31 18:51:27,531 DEBUG   SenderThread:355 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-31 18:51:27,549 INFO    SenderThread:355 [dir_watcher.py:__init__():165] watching files in: /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/files
+2020-12-31 18:51:27,550 INFO    SenderThread:355 [sender.py:_start_run_threads():490] run started: 8l3uq3n2 with start time 1609408286
+2020-12-31 18:51:27,550 DEBUG   SenderThread:355 [sender.py:send():90] send: summary
+2020-12-31 18:51:27,551 INFO    SenderThread:355 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-31 18:51:27,552 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: run_start
+2020-12-31 18:51:27,563 DEBUG   HandlerThread:355 [cmd.py:execute():719] Popen(['git', 'cat-file', '--batch-check'], cwd=/home/fkubota/Git/sand-pit, universal_newlines=False, shell=None, istream=<valid stream>)
+2020-12-31 18:51:27,581 DEBUG   HandlerThread:355 [cmd.py:execute():719] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/home/fkubota/Git/sand-pit, universal_newlines=False, shell=None, istream=None)
+2020-12-31 18:51:27,605 DEBUG   SenderThread:355 [sender.py:send():90] send: files
+2020-12-31 18:51:27,605 INFO    SenderThread:355 [sender.py:_save_file():568] saving file wandb-metadata.json with policy now
+2020-12-31 18:51:27,609 DEBUG   Thread-11 :355 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-31 18:51:27,609 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: status
+2020-12-31 18:51:27,610 DEBUG   SenderThread:355 [sender.py:send():90] send: request
+2020-12-31 18:51:27,610 DEBUG   SenderThread:355 [sender.py:send_request():99] send_request: status
+2020-12-31 18:51:27,612 DEBUG   SenderThread:355 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-31 18:51:27,620 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: poll_exit
+2020-12-31 18:51:28,078 DEBUG   Thread-11 :355 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-31 18:51:28,092 DEBUG   SenderThread:355 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-31 18:51:28,096 DEBUG   Thread-11 :355 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-31 18:51:28,100 DEBUG   SenderThread:355 [sender.py:send():90] send: config
+2020-12-31 18:51:28,115 DEBUG   SenderThread:355 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-31 18:51:28,556 INFO    Thread-8  :355 [dir_watcher.py:_on_file_created():213] file/dir created: /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/files/wandb-metadata.json
+2020-12-31 18:51:28,557 INFO    Thread-8  :355 [dir_watcher.py:_on_file_created():213] file/dir created: /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/files/output.log
+2020-12-31 18:51:28,558 INFO    Thread-8  :355 [dir_watcher.py:_on_file_created():213] file/dir created: /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/files/requirements.txt
+2020-12-31 18:51:28,653 DEBUG   SenderThread:355 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-31 18:51:28,663 DEBUG   SenderThread:355 [sender.py:send():90] send: config
+2020-12-31 18:51:28,677 DEBUG   SenderThread:355 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-31 18:51:28,722 DEBUG   Thread-11 :355 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/fkubota/sandpit_024_01/8l3uq3n2/wandb-metadata.json?Expires=1609494687&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=fcMs71%2Bju%2FRQgVlsW7CSO7%2BMUNl5AmrBTdHfFjm0i%2Fb%2FUb7WRQFMUleLSV9yHLskrQGZXdTZb4AMxrBS01gFCsTLqtru2h%2F%2FQfGkMvH135EI7GsWjkvwmA%2Bg2GXEpZ2OMJYS0QqDBTJZzTt91%2BWtiOp%2Boizh%2B3iO8P13%2BnNETpR8jgAvj7Sf76woLFBf%2Fa3B7ELVjjzapMMPbLxgjbxqq45%2Bvgq03E9veXCESZgEjQx%2FjcX293Z6MP4YYRCf15F5v3%2B0DWRfuikdefLsLFGrIiWxWYSa6rs%2BNV%2FHpTo%2BdsOoXvNr0IKMXAVN8RzahkpfDa06hlw6QeD6VJTbNxA2Ig%3D%3D HTTP/1.1" 200 0
+2020-12-31 18:51:28,726 INFO    Thread-11 :355 [upload_job.py:push():131] Uploaded file /tmp/tmposrwxe8kwandb/2ibbfvzd-wandb-metadata.json
+2020-12-31 18:51:29,168 DEBUG   SenderThread:355 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-31 18:51:29,179 DEBUG   SenderThread:355 [sender.py:send():90] send: history
+2020-12-31 18:51:29,180 DEBUG   SenderThread:355 [sender.py:send():90] send: summary
+2020-12-31 18:51:29,181 INFO    SenderThread:355 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-31 18:51:29,182 DEBUG   SenderThread:355 [sender.py:send():90] send: history
+2020-12-31 18:51:29,182 DEBUG   SenderThread:355 [sender.py:send():90] send: summary
+2020-12-31 18:51:29,183 INFO    SenderThread:355 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-31 18:51:29,184 DEBUG   SenderThread:355 [sender.py:send():90] send: history
+2020-12-31 18:51:29,184 DEBUG   SenderThread:355 [sender.py:send():90] send: summary
+2020-12-31 18:51:29,185 INFO    SenderThread:355 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-31 18:51:29,186 DEBUG   SenderThread:355 [sender.py:send():90] send: history
+2020-12-31 18:51:29,186 DEBUG   SenderThread:355 [sender.py:send():90] send: summary
+2020-12-31 18:51:29,187 INFO    SenderThread:355 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-31 18:51:29,188 DEBUG   SenderThread:355 [sender.py:send():90] send: history
+2020-12-31 18:51:29,188 DEBUG   SenderThread:355 [sender.py:send():90] send: summary
+2020-12-31 18:51:29,190 INFO    SenderThread:355 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-31 18:51:29,191 DEBUG   SenderThread:355 [sender.py:send():90] send: history
+2020-12-31 18:51:29,191 DEBUG   SenderThread:355 [sender.py:send():90] send: summary
+2020-12-31 18:51:29,192 INFO    SenderThread:355 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-31 18:51:29,193 DEBUG   SenderThread:355 [sender.py:send():90] send: history
+2020-12-31 18:51:29,193 DEBUG   SenderThread:355 [sender.py:send():90] send: summary
+2020-12-31 18:51:29,194 INFO    SenderThread:355 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-31 18:51:29,195 DEBUG   SenderThread:355 [sender.py:send():90] send: history
+2020-12-31 18:51:29,195 DEBUG   SenderThread:355 [sender.py:send():90] send: summary
+2020-12-31 18:51:29,196 INFO    SenderThread:355 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-31 18:51:29,196 DEBUG   SenderThread:355 [sender.py:send():90] send: history
+2020-12-31 18:51:29,197 DEBUG   SenderThread:355 [sender.py:send():90] send: summary
+2020-12-31 18:51:29,198 INFO    SenderThread:355 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-31 18:51:29,198 DEBUG   SenderThread:355 [sender.py:send():90] send: history
+2020-12-31 18:51:29,198 DEBUG   SenderThread:355 [sender.py:send():90] send: summary
+2020-12-31 18:51:29,199 INFO    SenderThread:355 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-31 18:51:29,200 DEBUG   SenderThread:355 [sender.py:send():90] send: exit
+2020-12-31 18:51:29,200 INFO    SenderThread:355 [sender.py:send_exit():168] handling exit code: 0
+2020-12-31 18:51:29,200 INFO    SenderThread:355 [sender.py:send_exit():176] send defer
+2020-12-31 18:51:29,200 DEBUG   SenderThread:355 [sender.py:send():90] send: request
+2020-12-31 18:51:29,200 DEBUG   SenderThread:355 [sender.py:send_request():99] send_request: poll_exit
+2020-12-31 18:51:29,201 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: defer
+2020-12-31 18:51:29,202 INFO    HandlerThread:355 [handler.py:handle_request_defer():69] handle defer: 0
+2020-12-31 18:51:29,202 DEBUG   SenderThread:355 [sender.py:send():90] send: request
+2020-12-31 18:51:29,202 DEBUG   SenderThread:355 [sender.py:send_request():99] send_request: defer
+2020-12-31 18:51:29,202 INFO    SenderThread:355 [sender.py:send_request_defer():185] handle sender defer: 0
+2020-12-31 18:51:29,203 INFO    SenderThread:355 [sender.py:send_request_defer():221] send defer: 1
+2020-12-31 18:51:29,203 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: defer
+2020-12-31 18:51:29,203 INFO    HandlerThread:355 [handler.py:handle_request_defer():69] handle defer: 1
+2020-12-31 18:51:29,287 DEBUG   SenderThread:355 [sender.py:send():90] send: request
+2020-12-31 18:51:29,288 DEBUG   SenderThread:355 [sender.py:send_request():99] send_request: defer
+2020-12-31 18:51:29,288 INFO    SenderThread:355 [sender.py:send_request_defer():185] handle sender defer: 1
+2020-12-31 18:51:29,288 INFO    SenderThread:355 [sender.py:send_request_defer():221] send defer: 2
+2020-12-31 18:51:29,289 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: defer
+2020-12-31 18:51:29,290 INFO    HandlerThread:355 [handler.py:handle_request_defer():69] handle defer: 2
+2020-12-31 18:51:29,290 DEBUG   SenderThread:355 [sender.py:send():90] send: stats
+2020-12-31 18:51:29,291 DEBUG   SenderThread:355 [sender.py:send():90] send: request
+2020-12-31 18:51:29,291 DEBUG   SenderThread:355 [sender.py:send_request():99] send_request: defer
+2020-12-31 18:51:29,291 INFO    SenderThread:355 [sender.py:send_request_defer():185] handle sender defer: 2
+2020-12-31 18:51:29,292 INFO    SenderThread:355 [sender.py:send_request_defer():221] send defer: 3
+2020-12-31 18:51:29,293 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: defer
+2020-12-31 18:51:29,293 INFO    HandlerThread:355 [handler.py:handle_request_defer():69] handle defer: 3
+2020-12-31 18:51:29,294 DEBUG   SenderThread:355 [sender.py:send():90] send: summary
+2020-12-31 18:51:29,295 INFO    SenderThread:355 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-31 18:51:29,296 DEBUG   SenderThread:355 [sender.py:send():90] send: request
+2020-12-31 18:51:29,296 DEBUG   SenderThread:355 [sender.py:send_request():99] send_request: defer
+2020-12-31 18:51:29,296 INFO    SenderThread:355 [sender.py:send_request_defer():185] handle sender defer: 3
+2020-12-31 18:51:29,296 INFO    SenderThread:355 [sender.py:send_request_defer():221] send defer: 4
+2020-12-31 18:51:29,297 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: defer
+2020-12-31 18:51:29,297 INFO    HandlerThread:355 [handler.py:handle_request_defer():69] handle defer: 4
+2020-12-31 18:51:29,298 DEBUG   SenderThread:355 [sender.py:send():90] send: request
+2020-12-31 18:51:29,298 DEBUG   SenderThread:355 [sender.py:send_request():99] send_request: defer
+2020-12-31 18:51:29,298 INFO    SenderThread:355 [sender.py:send_request_defer():185] handle sender defer: 4
+2020-12-31 18:51:29,299 INFO    SenderThread:355 [dir_watcher.py:finish():279] shutting down directory watcher
+2020-12-31 18:51:29,553 INFO    SenderThread:355 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/files/config.yaml
+2020-12-31 18:51:29,554 INFO    SenderThread:355 [dir_watcher.py:finish():309] scan: /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/files
+2020-12-31 18:51:29,554 INFO    SenderThread:355 [dir_watcher.py:finish():315] scan save: /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/files/wandb-metadata.json wandb-metadata.json
+2020-12-31 18:51:29,555 INFO    SenderThread:355 [dir_watcher.py:finish():315] scan save: /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/files/output.log output.log
+2020-12-31 18:51:29,555 INFO    SenderThread:355 [dir_watcher.py:finish():315] scan save: /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/files/wandb-summary.json wandb-summary.json
+2020-12-31 18:51:29,556 INFO    SenderThread:355 [dir_watcher.py:finish():315] scan save: /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/files/config.yaml config.yaml
+2020-12-31 18:51:29,556 INFO    SenderThread:355 [dir_watcher.py:finish():315] scan save: /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/files/requirements.txt requirements.txt
+2020-12-31 18:51:29,572 DEBUG   Thread-12 :355 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-31 18:51:29,576 INFO    SenderThread:355 [sender.py:send_request_defer():221] send defer: 5
+2020-12-31 18:51:29,577 DEBUG   Thread-13 :355 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-31 18:51:29,593 DEBUG   Thread-14 :355 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-31 18:51:29,594 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: defer
+2020-12-31 18:51:29,599 DEBUG   Thread-15 :355 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-31 18:51:29,599 INFO    HandlerThread:355 [handler.py:handle_request_defer():69] handle defer: 5
+2020-12-31 18:51:29,601 DEBUG   SenderThread:355 [sender.py:send():90] send: request
+2020-12-31 18:51:29,601 DEBUG   SenderThread:355 [sender.py:send_request():99] send_request: defer
+2020-12-31 18:51:29,601 INFO    SenderThread:355 [sender.py:send_request_defer():185] handle sender defer: 5
+2020-12-31 18:51:29,601 INFO    SenderThread:355 [file_pusher.py:finish():169] shutting down file pusher
+2020-12-31 18:51:29,602 INFO    SenderThread:355 [sender.py:send_request_defer():221] send defer: 6
+2020-12-31 18:51:29,603 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: defer
+2020-12-31 18:51:29,603 INFO    HandlerThread:355 [handler.py:handle_request_defer():69] handle defer: 6
+2020-12-31 18:51:29,604 DEBUG   SenderThread:355 [sender.py:send():90] send: request
+2020-12-31 18:51:29,604 DEBUG   SenderThread:355 [sender.py:send_request():99] send_request: defer
+2020-12-31 18:51:29,604 INFO    SenderThread:355 [sender.py:send_request_defer():185] handle sender defer: 6
+2020-12-31 18:51:29,609 DEBUG   Thread-5  :355 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-31 18:51:30,041 DEBUG   Thread-15 :355 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-31 18:51:30,052 DEBUG   Thread-15 :355 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-31 18:51:30,362 DEBUG   Thread-12 :355 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-31 18:51:30,365 DEBUG   Thread-13 :355 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-31 18:51:30,388 DEBUG   Thread-13 :355 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-31 18:51:30,389 DEBUG   Thread-5  :355 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/fkubota/sandpit_024_01/8l3uq3n2/file_stream HTTP/1.1" 200 None
+2020-12-31 18:51:30,393 DEBUG   Thread-12 :355 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-31 18:51:30,619 DEBUG   Thread-5  :355 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/fkubota/sandpit_024_01/8l3uq3n2/file_stream HTTP/1.1" 200 None
+2020-12-31 18:51:30,622 DEBUG   Thread-15 :355 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/fkubota/sandpit_024_01/8l3uq3n2/requirements.txt?Expires=1609494689&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=EMWQkPtGJiEoQB%2BGSFH1m60LH%2BWBUQEfv3zZt%2BHAZOKCEJhTpwvMvrUi4Tq3Tuq3JISAmTRHBnJ%2Bs11NaIWskmbA5K6fDfpHJxeTPiX4Dp%2BB%2FHwhXwr%2B7MtXvPeoptjoAttNWG5Q3QA6nQuaO9cGeBs0qyI7WQOFm%2F%2FAVkHFy6b4hjCPAnyRzuvQ%2FqoaDoiu9OS%2FRHvM6ih3NHs5DlxaB1zG1F55LW2W4loRurCENETBEbuj9OQWZHHhr1xzLjePxiU%2FF78GylKxyqi3c3AilX%2FqhoqRIU9HHriO6DDW5jAZNOT6wj2YNGx5MMKSbwbaxSJSfqTgvXmFPH0QOYvgwQ%3D%3D HTTP/1.1" 200 0
+2020-12-31 18:51:30,626 INFO    Thread-15 :355 [upload_job.py:push():131] Uploaded file /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/files/requirements.txt
+2020-12-31 18:51:30,631 INFO    SenderThread:355 [sender.py:send_request_defer():221] send defer: 7
+2020-12-31 18:51:30,634 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: defer
+2020-12-31 18:51:30,634 INFO    HandlerThread:355 [handler.py:handle_request_defer():69] handle defer: 7
+2020-12-31 18:51:30,635 DEBUG   SenderThread:355 [sender.py:send():90] send: request
+2020-12-31 18:51:30,635 DEBUG   SenderThread:355 [sender.py:send_request():99] send_request: defer
+2020-12-31 18:51:30,635 INFO    SenderThread:355 [sender.py:send_request_defer():185] handle sender defer: 7
+2020-12-31 18:51:30,636 INFO    SenderThread:355 [sender.py:send_request_defer():221] send defer: 8
+2020-12-31 18:51:30,638 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: defer
+2020-12-31 18:51:30,639 INFO    HandlerThread:355 [handler.py:handle_request_defer():69] handle defer: 8
+2020-12-31 18:51:30,639 DEBUG   SenderThread:355 [sender.py:send():90] send: final
+2020-12-31 18:51:30,640 DEBUG   SenderThread:355 [sender.py:send():90] send: footer
+2020-12-31 18:51:30,640 DEBUG   SenderThread:355 [sender.py:send():90] send: request
+2020-12-31 18:51:30,640 DEBUG   SenderThread:355 [sender.py:send_request():99] send_request: defer
+2020-12-31 18:51:30,640 INFO    SenderThread:355 [sender.py:send_request_defer():185] handle sender defer: 8
+2020-12-31 18:51:31,113 DEBUG   Thread-13 :355 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/fkubota/sandpit_024_01/8l3uq3n2/wandb-summary.json?Expires=1609494690&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=RMDfTiJf%2F8yfrfjdMMkOMMN86KIkTQ5biiAGOQD2toynbrfyDW9Zsqj0zim7REyAolwja2bqsIAKnsFfCSzojAFxB6fMb7D%2BXpjuKeiTGh0uGTLUdm7PFeQB82lVe%2Bk83ahXrq2GjCfF32zra0MGfH%2FooSqMLW32UUGD0LO2ve%2B1rXJPvCzg%2BM4C5h%2BnOdrpvAzLzyCGe3VJcvsf1pP9%2FRWG2R6surOk0yU7sSy3anAlES7ls8%2BTJfzG23Ys6ZxdbLgaIGNLNePfqXr6LtMsKXXf5ZGND1Vv6%2BfVkBN7Ms6s6duJlzh%2FQuCYYtxkkRQqbOVnYLA2IrQXiikDZZxRnA%3D%3D HTTP/1.1" 200 0
+2020-12-31 18:51:31,118 INFO    Thread-13 :355 [upload_job.py:push():131] Uploaded file /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/files/wandb-summary.json
+2020-12-31 18:51:31,118 DEBUG   Thread-12 :355 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/fkubota/sandpit_024_01/8l3uq3n2/output.log?Expires=1609494690&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=HRdnAAd4hnYoJ311EtM55AyOBRN19BdmilHhPGSUB46wmtIT2F5RBR680%2B8xPNqA111YPXV9R7yi1BUgx4l1NYFmPAper6Tm1kYdM%2F%2BmS9AW38ZB7yg1MNXVpKNwYnpdPmSb0PgW5HhrFoiAqlqeAJ3Q5KOs5tYYsObPTVIwExV4ejueg74i0veHAtd31RXM%2FS5nsAztMS7Sr0DfGpVbzDinS6BE%2FHiUbpSq0ILKklwj8e8bgy59xjVuTO0ogOvqGFUjHUWO90piBVHj6zH4tYRsP0Y1i9FmwrHOvBc0QjUT7c7WbF6XiWWyIU7AKIQY3SoUTuAfGqh%2BhJM115RU1A%3D%3D HTTP/1.1" 200 0
+2020-12-31 18:51:31,120 INFO    Thread-12 :355 [upload_job.py:push():131] Uploaded file /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/files/output.log
+2020-12-31 18:51:31,121 DEBUG   Thread-14 :355 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-31 18:51:31,128 DEBUG   Thread-14 :355 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-31 18:51:31,206 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: poll_exit
+2020-12-31 18:51:31,207 DEBUG   SenderThread:355 [sender.py:send():90] send: request
+2020-12-31 18:51:31,207 DEBUG   SenderThread:355 [sender.py:send_request():99] send_request: poll_exit
+2020-12-31 18:51:31,758 DEBUG   Thread-14 :355 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/fkubota/sandpit_024_01/8l3uq3n2/config.yaml?Expires=1609494690&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=dpAHWkTmz4RcpeMwIiyMcR1ZA1qMxDWfLPW2hb2ukUS9pE80T2ioEzf2jt7unHGkHl1MA9g7y3T3NtImCJjN4aV5fZ70vG5gzzUEVxOl5TPf12MPGd54fpteUb8oyFMqIlkfX2yqVKlNoXtZ9CrbLx6KbUdNBwml%2BVmpJV4yDnpQl6Eq6B7wuZ%2FSR6cGcrKht1VnFdGdJjg1EZoj6xR323%2FFqmTqtFjfdUmAqMoHTI%2BWasU5F6UsblfnKH%2BKbkccMRo4iNQxypgTZAA4qqyEtAXR%2F9mwNeFcP7wIfsrqhzGWp7vNEvlq0%2BfR1DdeFBagjZPz4p9Gu%2FsnttW5xB%2FMng%3D%3D HTTP/1.1" 200 0
+2020-12-31 18:51:31,762 INFO    Thread-14 :355 [upload_job.py:push():131] Uploaded file /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/files/config.yaml
+2020-12-31 18:51:33,213 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: poll_exit
+2020-12-31 18:51:33,214 DEBUG   SenderThread:355 [sender.py:send():90] send: request
+2020-12-31 18:51:33,214 DEBUG   SenderThread:355 [sender.py:send_request():99] send_request: poll_exit
+2020-12-31 18:51:33,214 INFO    SenderThread:355 [file_pusher.py:join():174] waiting for file pusher
+2020-12-31 18:51:33,217 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: get_summary
+2020-12-31 18:51:33,220 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: sampled_history
+2020-12-31 18:51:33,223 DEBUG   HandlerThread:355 [handler.py:handle_request():55] handle_request: shutdown
+2020-12-31 18:51:33,223 INFO    HandlerThread:355 [handler.py:finish():271] shutting down handler
+2020-12-31 18:51:33,639 INFO    WriterThread:355 [datastore.py:close():257] close: /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/run-8l3uq3n2.wandb
+2020-12-31 18:51:34,215 INFO    SenderThread:355 [sender.py:finish():642] shutting down sender
+2020-12-31 18:51:34,215 INFO    SenderThread:355 [file_pusher.py:finish():169] shutting down file pusher
+2020-12-31 18:51:34,216 INFO    SenderThread:355 [file_pusher.py:join():174] waiting for file pusher
+2020-12-31 18:51:34,218 INFO    MainThread:355 [internal.py:handle_exit():138] Internal process exited

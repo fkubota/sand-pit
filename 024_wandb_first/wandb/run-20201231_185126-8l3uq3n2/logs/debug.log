@@ -1,0 +1,81 @@
+2020-12-31 18:51:26,017 INFO    MainThread:334 [wandb_setup.py:_flush():70] setting env: {}
+2020-12-31 18:51:26,017 INFO    MainThread:334 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2020-12-31 18:51:26,017 INFO    MainThread:334 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-31 18:51:26,017 INFO    MainThread:334 [wandb_init.py:_log_setup():303] Logging user logs to /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/logs/debug.log
+2020-12-31 18:51:26,017 INFO    MainThread:334 [wandb_init.py:_log_setup():304] Logging internal logs to /home/fkubota/Git/sand-pit/024_wandb_first/wandb/run-20201231_185126-8l3uq3n2/logs/debug-internal.log
+2020-12-31 18:51:27,608 INFO    MainThread:334 [wandb_run.py:_console_start():1237] atexit reg
+2020-12-31 18:51:27,608 INFO    MainThread:334 [wandb_run.py:_redirect():1104] redirect: SettingsConsole.REDIRECT
+2020-12-31 18:51:27,609 INFO    MainThread:334 [wandb_run.py:_redirect():1107] Redirecting console.
+2020-12-31 18:51:27,609 INFO    MainThread:334 [redirect.py:install():204] install start
+2020-12-31 18:51:27,610 INFO    MainThread:334 [redirect.py:install():219] install stop
+2020-12-31 18:51:27,610 INFO    MainThread:334 [redirect.py:install():204] install start
+2020-12-31 18:51:27,610 INFO    MainThread:334 [redirect.py:install():219] install stop
+2020-12-31 18:51:27,610 INFO    MainThread:334 [wandb_run.py:_redirect():1151] Redirects installed.
+2020-12-31 18:51:27,610 INFO    MainThread:334 [wandb_config.py:__setitem__():135] config set dropout = 0.2 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fa02c21d7b8>>
+2020-12-31 18:51:27,610 INFO    MainThread:334 [wandb_run.py:_config_callback():549] config_cb dropout 0.2 {'_wandb': {'cli_version': '0.10.12', 'python_version': '3.6.9', 'is_jupyter_run': False, 'is_kaggle_kernel': False}, 'dropout': 0.2}
+2020-12-31 18:51:27,611 INFO    MainThread:334 [wandb_config.py:__setitem__():135] config set hidden_layer_size = 128 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fa02c21d7b8>>
+2020-12-31 18:51:27,611 INFO    MainThread:334 [wandb_run.py:_config_callback():549] config_cb hidden_layer_size 128 {'_wandb': {'cli_version': '0.10.12', 'python_version': '3.6.9', 'is_jupyter_run': False, 'is_kaggle_kernel': False}, 'dropout': 0.2, 'hidden_layer_size': 128}
+2020-12-31 18:51:27,613 INFO    MainThread:334 [wandb_run.py:_atexit_cleanup():1207] got exitcode: 0
+2020-12-31 18:51:27,614 INFO    MainThread:334 [wandb_run.py:_restore():1179] restore
+2020-12-31 18:51:27,614 INFO    MainThread:334 [redirect.py:uninstall():223] uninstall start
+2020-12-31 18:51:27,614 INFO    MainThread:334 [redirect.py:_stop():278] _stop: stdout
+2020-12-31 18:51:27,614 INFO    stdout    :334 [redirect.py:_pipe_relay():120] relay done saw last write: stdout
+2020-12-31 18:51:27,615 INFO    MainThread:334 [redirect.py:_stop():284] _stop closed: stdout
+2020-12-31 18:51:27,615 INFO    stdout    :334 [redirect.py:_pipe_relay():136] relay done done: stdout
+2020-12-31 18:51:27,615 INFO    MainThread:334 [redirect.py:_stop():290] _stop joined: stdout
+2020-12-31 18:51:27,615 INFO    MainThread:334 [redirect.py:_stop():292] _stop rd closed: stdout
+2020-12-31 18:51:27,615 INFO    MainThread:334 [redirect.py:uninstall():227] uninstall done
+2020-12-31 18:51:27,615 INFO    MainThread:334 [redirect.py:uninstall():223] uninstall start
+2020-12-31 18:51:27,615 INFO    MainThread:334 [redirect.py:_stop():278] _stop: stderr
+2020-12-31 18:51:27,615 INFO    MainThread:334 [redirect.py:_stop():284] _stop closed: stderr
+2020-12-31 18:51:27,615 INFO    stderr    :334 [redirect.py:_pipe_relay():120] relay done saw last write: stderr
+2020-12-31 18:51:27,615 INFO    stderr    :334 [redirect.py:_pipe_relay():136] relay done done: stderr
+2020-12-31 18:51:27,615 INFO    MainThread:334 [redirect.py:_stop():290] _stop joined: stderr
+2020-12-31 18:51:27,615 INFO    MainThread:334 [redirect.py:_stop():292] _stop rd closed: stderr
+2020-12-31 18:51:27,615 INFO    MainThread:334 [redirect.py:uninstall():227] uninstall done
+2020-12-31 18:51:29,201 INFO    MainThread:334 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "78cfeb584dc741e69b31451d0b18f87d"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 707
+      total_bytes: 707
+    }
+  }
+}
+
+2020-12-31 18:51:31,209 INFO    MainThread:334 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "6064e54440974a7e97caa0618d815522"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 3801
+      total_bytes: 4034
+    }
+  }
+}
+
+2020-12-31 18:51:33,216 INFO    MainThread:334 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "20f1857225b44b39bf04bcf63c02a46a"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 4034
+      total_bytes: 4034
+    }
+  }
+}
+
+2020-12-31 18:51:34,320 INFO    MainThread:334 [wandb_run.py:_show_summary():1469] rendering summary
+2020-12-31 18:51:34,320 INFO    MainThread:334 [wandb_run.py:_show_history():1507] rendering history
+2020-12-31 18:51:34,321 INFO    MainThread:334 [wandb_run.py:_show_files():1536] logging synced files
+2020-12-31 18:51:34,322 INFO    MainThread:334 [internal.py:handle_exit():138] Internal process exited
