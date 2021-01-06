@@ -1,3 +1,8 @@
+```
+このサイトわかりやすい
+https://github.com/MLHPC/wandb_tutorial
+```
+
 import wandb
 import numpy as np
 
