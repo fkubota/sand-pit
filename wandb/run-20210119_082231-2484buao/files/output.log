@@ -1,0 +1,11 @@
+wandb: ERROR Attempted to change value of key "i_fold" from 0 to 1
+wandb: ERROR If you really want to do this, pass allow_val_change=True to config.update()
+Traceback (most recent call last):
+  File "028_wandb_kfold/run.py", line 14, in <module>
+    wandb.config.i_fold = i_fold
+  File "/home/fkubota/venv/ml/lib/python3.6/site-packages/wandb/sdk/wandb_config.py", line 130, in __setitem__
+    key, val = self._sanitize(key, val)
+  File "/home/fkubota/venv/ml/lib/python3.6/site-packages/wandb/sdk/wandb_config.py", line 218, in _sanitize
+    ).format(key, self._items[key], val)
+wandb.sdk.lib.config_util.ConfigError: Attempted to change value of key "i_fold" from 0 to 1
+If you really want to do this, pass allow_val_change=True to config.update()
