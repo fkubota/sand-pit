@@ -13,13 +13,16 @@ config = {
             'name': 'bce'}
         }
 
-wandb.init(
-        project='sandpit_028_kfold',
-        name='01'
-        )
-wandb.config = config
 
+# wandb.config.all_config = config
+# wandb.config.debug = True
 for i_fold in range(5):
-    for epoch in range(10):
-        loss = np.exp(-epoch)
+    run = wandb.init(project='sandpit_028_kfold',
+                     group='exp01',
+                     name=f'fold{i_fold}')
+    run.config.dropout = 0.2
+    run.config.debug = True
+    for epoch in range(50):
+        loss = np.exp(-0.1*epoch) + np.random.randint(-500, 500)/5000
         wandb.log({'epoch': epoch, 'loss': loss})
+    run.finish()

@@ -1,0 +1,22 @@
+{
+    "os": "Linux-4.15.0-128-generic-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.6.9",
+    "heartbeatAt": "2021-01-19T12:46:15.965490",
+    "startedAt": "2021-01-19T12:46:14.817246",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "codePath": "028_wandb_kfold/run.py",
+    "program": "run.py",
+    "git": {
+        "remote": "git@github.com:fkubota/sand-pit.git",
+        "commit": "cc47ba19bd6b26fb8298a68a67c9369dbfc12044"
+    },
+    "email": "rkkubotay@gmail.com",
+    "root": "/home/fkubota/Git/sand-pit",
+    "host": "fkubota-dynabook-RZ63-MS",
+    "username": "fkubota",
+    "executable": "/home/fkubota/venv/ml/bin/python3"
+}

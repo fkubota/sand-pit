@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "run.py", line 22, in <module>
+    wandb.config.debug = True
+AttributeError: 'dict' object has no attribute 'debug'
