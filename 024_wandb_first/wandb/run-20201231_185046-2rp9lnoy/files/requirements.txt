@@ -113,7 +113,7 @@ prometheus-client==0.8.0
 prometheus-flask-exporter==0.15.4
 promise==2.3
 prompt-toolkit==3.0.5
-protobuf==3.14.0
+protobuf==3.18.3
 psutil==5.8.0
 ptyprocess==0.6.0
 pycodestyle==2.6.0
